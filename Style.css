@@ -1,0 +1,98 @@
+body
+{
+	font-family: Eurostile !important;
+	color: #d23345;
+	font-size: 20px;
+	background-color: black;
+	font-family: 'Barlow', sans-serif;
+	margin: 100px;
+	margin-left: 10px;
+	margin-rightt: 100px;
+}
+
+h1
+{
+	color: #d23345;
+	font-weight: 950;
+	font-size: 55px;
+}
+
+a:link
+{
+	color: #d23345 !important;
+	font-size: 25px !important;
+
+}
+
+a:visited
+{
+	color: #d23345 !important;
+	font-size: 25px !important;
+
+}
+
+a:hover
+{
+	color: #3333ff !important;
+	font-weight: bold !important;
+	font-size: 30px !important;
+
+}
+
+.sidenav {
+  height: 100%; 
+  width: 160px;
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #100c0c;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #100c0c;
+  display: block;
+}
+
+
+.sidenav a:hover {
+  color: #3333ff;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+discord
+{
+	color: blue;
+	font-family: Eurostile;
+}
+
+gmail
+{
+	color: red;
+	font-family: Eurostile;
+}
+
+twitch
+{
+	color: purple; 
+	font-family: Eurostile;
+}
+
+
